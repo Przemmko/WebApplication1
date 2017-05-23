@@ -9,7 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using WebApplication1.Models;
-
+//dodatkowa zmiana
 namespace WebApplication1.Controllers
 {
     [Authorize]
