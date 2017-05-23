@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using WebApplication1.Models;
+using TestLibrary;
 
 //dodatkowa zmiana
 
@@ -24,7 +25,7 @@ namespace WebApplication1.Controllers
 
         public AccountController()
         {
-            //nowe zmiany w kontrolerze
+            Class1 aa = new Class1();
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
