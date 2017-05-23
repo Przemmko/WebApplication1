@@ -20,6 +20,7 @@ namespace WebApplication1.Controllers
 
         public AccountController()
         {
+            //nowe zmiany w kontrolerze
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
