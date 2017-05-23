@@ -9,9 +9,9 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using WebApplication1.Models;
-
+//jeszcze inna zmiana
 namespace WebApplication1.Controllers
-{
+{ 
     [Authorize]
     public class AccountController : Controller
     {
